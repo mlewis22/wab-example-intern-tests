@@ -1,0 +1,30 @@
+{
+  "name": "esri-wab-typescript-intern",
+  "description": "A boiler plate for typescript, Esri YO web app builder, Intern",
+  "main": "",
+  "authors": [
+    "Matthew lewis"
+  ],
+  "license": "Apache-2.0",
+  "dependencies": {
+    "esri": "arcgis-js-api#3.28.0",
+    "dijit-themes": "https://github.com/dojo/dijit-themes.git#1.14.0"
+  },
+  "resolutions": {
+    "dojo": "v1.14.2/esri-3.28.0",
+    "dijit": "v1.14.2/esri-3.28.0",
+    "dojox": "v1.14.2/esri-3.28.0"
+  },
+  "keywords": [
+    "Esri",
+    "UK",
+    "intern",
+    "typescript",
+    "yo",
+    "web",
+    "app",
+    "builder"
+  ],
+  "homepage": "https://github.com/mlewis22/wab-example-intern-tests",
+  "private": true
+}

@@ -1,0 +1,47 @@
+{
+  "name": "esri-wab-typescript-intern",
+  "version": "1.0.0",
+  "description": "A boiler plate for typescript, Esri YO web app builder, Intern",
+  "keywords": [
+    "Esri UK",
+    "intern",
+    "typescript",
+    "yo",
+    "web app builder"
+  ],
+  "author": "Matthew lewis",
+  "license": "Apache-2.0",
+  "scripts": {
+    "preinstall": "npm install yo@latest -g && npm install grunt-cli@latest -g && npm install -g generator-esri-appbuilder-js && npm install -g bower && bower install",
+    "build": "esri-wab-build <add path to your app>",
+    "test": "intern"
+  },
+  "devDependencies": {
+    "@types/arcgis-js-api": "^3.28.0",
+    "dojo": "^1.15.0",
+    "dojo-typings": "^1.11.9",
+    "esri-wab-build": "^1.0.1",
+    "grunt": "^1.0.4",
+    "grunt-contrib-clean": "^2.0.0",
+    "grunt-contrib-connect": "^1.0.2",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-sass": "^3.0.2",
+    "grunt-sync": "^0.8.0",
+    "grunt-ts": "^6.0.0-beta.22",
+    "intern": "^4.4.1",
+    "node-sass": "^4.10.0",
+    "tslint": "^5.16.0",
+    "typescript": "^3.2.2"
+  },
+  "main": "",
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlewis22/wab-example-intern-tests.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mlewis22/wab-example-intern-tests/issues"
+  },
+  "homepage": "https://github.com/mlewis22/wab-example-intern-tests#readme"
+}

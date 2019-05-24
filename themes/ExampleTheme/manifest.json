@@ -1,0 +1,39 @@
+{
+  "name": "ExampleTheme",
+  "platform": "HTML",
+  "panels": [
+    {
+      "name": "FoldablePanel",
+      "description": "This is foldable panel"
+    },
+    {
+      "name": "DockablePanel",
+      "description": "This is Dockable panel"
+    }
+  ],
+  "styles": [
+    {
+      "name": "default",
+      "description": "this is default style",
+      "styleColor": "#586679"
+    }
+  ],
+  "layouts": [
+    {
+      "name": "default",
+      "description": "this is default layout"
+    }
+  ],
+  "widgets": [
+    {
+      "name": "HeaderController",
+      "description": "this is theme widget controller"
+    }
+  ],
+  "version": "2.12",
+  "wabVersion": "2.12",
+  "author": "Matthew Lewis, Esri UK",
+  "description": "A demo widget",
+  "copyright": "",
+  "license": "http://www.apache.org/licenses/LICENSE-2.0"
+}

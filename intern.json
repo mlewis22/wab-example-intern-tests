@@ -1,0 +1,97 @@
+{
+    "loader": {
+        "script": "dojo",
+        "options": {
+            "packages": [
+                {
+                    "name": "dgrid",
+                    "location": "bower_components/dgrid"
+                },
+                {
+                    "name": "dijit",
+                    "location": "bower_components/dijit"
+                },
+                {
+                    "name": "esri",
+                    "location": "bower_components/esri"
+                },
+                {
+                    "name": "dojo",
+                    "location": "bower_components/dojo"
+                },
+                {
+                    "name": "dojox",
+                    "location": "bower_components/dojox"
+                },
+                {
+                    "name": "moment",
+                    "location": "bower_components/moment"
+                },
+                {
+                    "name": "xstyle",
+                    "location": "bower_components/xstyle"
+                },
+                {
+                    "name": "util",
+                    "location": "bower_components/util"
+                },
+                {
+                    "name": "put-selector",
+                    "location": "bower_components/put-selector"
+                },
+                {
+                    "name": "jimu",
+                    "location": "./WebAppBuilderForArcGIS/client/stemapp/jimu.js"
+                },
+                {
+                    "name": "themes",
+                    "location": "./WebAppBuilderForArcGIS/client/stemapp/themes"
+                },
+                {
+                    "name": "libs",
+                    "location": "./WebAppBuilderForArcGIS/client/stemapp/libs"
+                },
+                {
+                    "name": "dynamic-modules",
+                    "location": "./WebAppBuilderForArcGIS/client/stemapp/dynamic-modules"
+                },
+                {
+                    "name": "builder",
+                    "location": "./WebAppBuilderForArcGIS/client/builder"
+                },
+                {
+                    "name": "stemapp",
+                    "location": "./WebAppBuilderForArcGIS/client/stemapp"
+                },
+                {
+                    "name": "widgets",
+                    "location": "widgets"
+                },
+                {
+                    "name": "dist",
+                    "location": "dist"
+                }
+            ]
+        }
+    },
+    "tunnelOptions": {
+        "maxConcurrency": 2,
+        "version": "3.4.0",
+        "drivers": [
+            "chrome"
+        ]
+    },
+    "suites": "tests/unittest",
+    "functionalSuites": ["tests/functest"],
+    "environments": [
+        {
+            "browserName": "chrome",
+            "fixSessionCapabilities": "no-detect",
+            "chromeOptions": {
+                "args": [
+                    "disable-gpu"
+                ]
+            }
+        }
+    ]
+}

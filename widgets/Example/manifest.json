@@ -1,0 +1,24 @@
+{
+  "name": "Example",
+  "2D": true,
+  "3D": false,
+  "platform": "HTML",
+  "version": "0.0.1",
+  "wabVersion": "2.11",
+  "author": "Matthew lewis, esri uk",
+  "description": "An example widget utilising typescript, yo generators and intern testing framework",
+  "copyright": "",
+  "license": "NOT AVAILIABLE",
+  "properties": {
+    "inPanel": true,
+    "hasLocale": false,
+    "hasStyle": true,
+    "hasConfig": true,
+    "hasUIFile": true,
+    "hasSettingPage": false,
+    "hasSettingUIFile": false,
+    "hasSettingLocale": false,
+    "hasSettingStyle": false,
+    "IsController": false
+  }
+}
