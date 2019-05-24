@@ -12,8 +12,9 @@
   "author": "Matthew lewis",
   "license": "Apache-2.0",
   "scripts": {
-    "preinstall": "npm install yo@latest -g && npm install grunt-cli@latest -g && npm install -g generator-esri-appbuilder-js && npm install -g bower && bower install",
-    "build": "esri-wab-build <add path to your app>",
+    "preinstall": "npm install yo@latest -g && npm install grunt-cli@latest -g && npm install -g generator-esri-appbuilder-js && npm install -g bower && bower install npm install -g esri-wab-build",
+    "build": "grunt",
+    "release": "esri-wab-build <add path to your app>",
     "test": "intern"
   },
   "devDependencies": {
