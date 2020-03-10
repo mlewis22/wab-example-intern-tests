@@ -19,7 +19,7 @@
   },
   "devDependencies": {
     "@types/arcgis-js-api": "^3.28.0",
-    "dojo": "^1.15.0",
+    "dojo": "^1.15.3",
     "dojo-typings": "^1.11.9",
     "esri-wab-build": "^1.0.1",
     "grunt": "^1.0.4",
